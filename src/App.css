@@ -1,0 +1,195 @@
+#logo {
+    width: 6vw;
+    height: 6vw;
+    margin: 0vw 2vw;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.a {
+    padding: 1.5vw 2vw;
+}
+
+.a a {
+    text-decoration: none;
+    color: black;
+}
+
+.a .b {
+    position: relative;
+}
+
+.a .b::after {
+    content: '';
+    position: absolute;
+    bottom: -2.8vw;
+    left: 50%;
+    width: 0%;
+    height: 3px;
+    background-color: black;
+    transition: transform 0.4s ease-out;
+}
+
+.a .b:hover::after {
+    left: -5%;
+    width: 115%;
+}
+
+#navbar,
+#navbar1 {
+    background-color: white;
+}
+
+#navbar1 {
+    margin-right: 35vw;
+}
+
+#head h1 {
+    font-family: 'Bebas Neue';
+    font-size: 8rem;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    margin-top: 8vw;
+    color: white
+}
+
+#head P {
+    font-size: 1.15rem;
+    margin-left: 38vw;
+    margin-right: 35vw;
+    margin-top: 2vw;
+    color: white;
+}
+
+#head {
+    width: 100vw;
+    height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.63),
+            rgba(0, 0, 0, 0.507)), url(../public/image/voiture.jpg)no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.connect {
+    font-weight: bolder;
+}
+
+#left p {
+    color: white;
+    font-family: 'Bebas Neue';
+    font-size: 3.5rem;
+    width: 20vw;
+    margin-left: 10vw;
+    background-color: rgb(5, 5, 5);
+    margin-right: 5vw;
+    padding-left: 2vw;
+}
+
+#left button {
+    background-color: white;
+}
+
+#right {
+    font-size: 1.05rem;
+    width: 70vw;
+    margin-right: 10vw;
+}
+
+.a-propos {
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    padding: 5vw;
+}
+
+.bouton-reserver {
+    background-color: rgb(5, 5, 5);
+    color: white;
+    float: right;
+    margin-right: 2vw;
+}
+
+#gauche {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30vw;
+    height: 40vw;
+    font-weight: bold;
+    color: white;
+    padding: 4vw;
+    background: linear-gradient(rgba(0, 0, 0, 0.63),
+            rgba(0, 0, 0, 0.507)), url(../public/image/285254794_320216706950556_5148487865375305387_n.jpg) no-repeat;
+    background-size: cover;
+}
+
+#gauche p {
+    font-family: 'Kanit', sans-serif;
+    font-size: 2rem;
+    margin-top: 3vw;
+}
+
+#gauche button {
+    margin-top: 3vw;
+    background-color: white;
+    color: rgb(5, 5, 5);
+}
+
+#droite div {
+    width: 20vw;
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    padding: 3vw;
+}
+
+#droite {
+    width: 40vw;
+    height: 40vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 1.25rem;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+}
+
+#droite img {
+    width: 7vw;
+    height: 7vw;
+    margin-bottom: 1vw;
+    margin-left: 3vw;
+}
+
+.quality {
+    display: flex;
+    flex-direction: row;
+}
+
+#two,
+#three {
+    color: rgb(5, 5, 5);
+    background-color: rgb(247, 247, 247);
+}
+
+#one,
+#four {
+    color: white;
+    background-color: rgb(5, 5, 5);
+}
+
+#trois {
+    width: 28vw;
+    height: 40vw;
+    background: linear-gradient(rgba(0, 0, 0, 0.63),
+            rgba(0, 0, 0, 0.507)), url(../public/image/261987286_3024904621091329_3280474071393591522_n.jpg) no-repeat;
+    background-size: cover;
+}
